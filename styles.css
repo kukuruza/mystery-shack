@@ -1,0 +1,315 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+:root {
+  --pine-dark: #1a2e1a;
+  --pine-mid: #2d4a2d;
+  --pine-light: #4a6b4a;
+  --wood-dark: #3d2817;
+  --wood-mid: #5c3d24;
+  --wood-light: #8b5a2b;
+  --sign-yellow: #f4c430;
+  --sign-yellow-dark: #c9a020;
+  --paper: #f5e6c8;
+  --paper-shadow: #d4c4a8;
+  --ink: #2a1810;
+  --rust: #8b3a2a;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: "Patrick Hand", cursive;
+  color: var(--ink);
+  background: var(--pine-dark);
+  line-height: 1.6;
+}
+
+.forest-bg {
+  position: fixed;
+  inset: 0;
+  z-index: -2;
+  background:
+    radial-gradient(ellipse at 20% 80%, rgba(30, 60, 30, 0.9) 0%, transparent 50%),
+    radial-gradient(ellipse at 80% 20%, rgba(20, 50, 25, 0.8) 0%, transparent 45%),
+    linear-gradient(180deg, #0f1a12 0%, var(--pine-dark) 40%, #152015 100%);
+}
+
+.forest-bg::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image:
+  repeating-linear-gradient(
+    90deg,
+    transparent,
+    transparent 80px,
+    rgba(0, 0, 0, 0.03) 80px,
+    rgba(0, 0, 0, 0.03) 82px
+  );
+  pointer-events: none;
+}
+
+.vignette {
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  background: radial-gradient(ellipse at center, transparent 40%, rgba(0, 0, 0, 0.55) 100%);
+}
+
+header {
+  padding: 2.5rem 1rem 1rem;
+  text-align: center;
+}
+
+.shack-sign {
+  perspective: 800px;
+}
+
+.sign-board {
+  display: inline-block;
+  padding: 1.5rem 2.5rem 1.75rem;
+  background:
+    linear-gradient(145deg, var(--wood-light) 0%, var(--wood-mid) 50%, var(--wood-dark) 100%);
+  border: 6px solid var(--wood-dark);
+  border-radius: 4px;
+  box-shadow:
+    0 8px 0 var(--wood-dark),
+    0 16px 32px rgba(0, 0, 0, 0.5),
+    inset 0 2px 0 rgba(255, 255, 255, 0.15);
+  transform: rotateX(2deg);
+  position: relative;
+}
+
+.sign-board::before,
+.sign-board::after {
+  content: "";
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  background: #555;
+  border-radius: 50%;
+  border: 2px solid #333;
+  top: 12px;
+}
+
+.sign-board::before {
+  left: 16px;
+}
+
+.sign-board::after {
+  right: 16px;
+}
+
+.sign-title {
+  font-family: "Creepster", cursive;
+  font-size: clamp(2.5rem, 8vw, 4.5rem);
+  color: var(--sign-yellow);
+  text-shadow:
+    3px 3px 0 var(--sign-yellow-dark),
+    0 0 20px rgba(244, 196, 48, 0.4);
+  margin: 0;
+  letter-spacing: 0.05em;
+  line-height: 1.1;
+}
+
+.sign-subtitle {
+  font-family: "Special Elite", cursive;
+  font-size: clamp(0.95rem, 2.5vw, 1.15rem);
+  color: var(--paper);
+  margin: 0.5rem 0 0;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.sign-ornament {
+  color: var(--sign-yellow);
+  font-size: 0.85rem;
+  margin-top: 0.75rem;
+  opacity: 0.8;
+}
+
+main {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 1rem 1.25rem 3rem;
+}
+
+.journal-card {
+  background: var(--paper);
+  padding: 1.75rem 2rem;
+  border-radius: 2px;
+  box-shadow:
+    4px 4px 0 var(--paper-shadow),
+    0 12px 40px rgba(0, 0, 0, 0.35);
+  position: relative;
+  margin-bottom: 2rem;
+  border-left: 4px solid var(--rust);
+}
+
+.journal-card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 6px;
+  background: repeating-linear-gradient(
+    90deg,
+    var(--rust),
+    var(--rust) 8px,
+    var(--paper) 8px,
+    var(--paper) 16px
+  );
+}
+
+.journal-label {
+  font-family: "Special Elite", cursive;
+  font-size: 0.8rem;
+  color: var(--rust);
+  letter-spacing: 0.15em;
+  margin-bottom: 0.5rem;
+}
+
+.journal-card h2 {
+  font-family: "Special Elite", cursive;
+  font-size: 1.75rem;
+  margin: 0 0 1rem;
+  color: var(--wood-dark);
+}
+
+.journal-card .lead {
+  font-size: 1.15rem;
+  margin-bottom: 1rem;
+}
+
+.journal-card p {
+  margin: 0.5rem 0;
+}
+
+.details-grid {
+  display: grid;
+  gap: 1.25rem;
+  margin-bottom: 2rem;
+}
+
+@media (min-width: 600px) {
+  .details-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.detail-card {
+  background: var(--paper);
+  padding: 1.25rem 1.25rem 1.5rem;
+  border-radius: 2px;
+  box-shadow:
+    3px 3px 0 var(--paper-shadow),
+    0 8px 24px rgba(0, 0, 0, 0.25);
+  text-align: center;
+  transition: transform 0.2s ease;
+}
+
+.detail-card:hover {
+  transform: translateY(-3px);
+}
+
+.detail-icon {
+  font-size: 2rem;
+  line-height: 1;
+  margin-bottom: 0.5rem;
+}
+
+.detail-card h3 {
+  font-family: "Special Elite", cursive;
+  font-size: 0.85rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--pine-mid);
+  margin: 0 0 0.5rem;
+}
+
+.detail-main {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin: 0;
+  color: var(--wood-dark);
+}
+
+.detail-sub {
+  font-size: 0.95rem;
+  margin: 0.35rem 0 0;
+  color: var(--ink);
+  opacity: 0.85;
+}
+
+.map-link {
+  display: inline-block;
+  margin-top: 0.75rem;
+  font-family: "Special Elite", cursive;
+  font-size: 0.8rem;
+  color: var(--rust);
+  text-decoration: none;
+  border-bottom: 1px solid var(--rust);
+  transition: color 0.2s, border-color 0.2s;
+}
+
+.map-link:hover {
+  color: var(--wood-dark);
+  border-color: var(--wood-dark);
+}
+
+.warning-banner {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+  background: linear-gradient(135deg, #3d2817 0%, #2a1810 100%);
+  color: var(--paper);
+  padding: 1.25rem 1.5rem;
+  border: 3px solid var(--sign-yellow-dark);
+  border-radius: 2px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+  margin-bottom: 2rem;
+}
+
+.warning-icon {
+  font-size: 1.5rem;
+  color: var(--sign-yellow);
+  flex-shrink: 0;
+  line-height: 1.2;
+}
+
+.warning-banner p {
+  margin: 0;
+  font-size: 0.95rem;
+}
+
+.warning-banner strong {
+  color: var(--sign-yellow);
+}
+
+.footer-note {
+  text-align: center;
+  color: var(--paper);
+  opacity: 0.9;
+}
+
+.footer-note p {
+  margin: 0.25rem 0;
+  font-size: 1.1rem;
+}
+
+.gravity-falls-easter-egg {
+  font-size: 0.9rem;
+  opacity: 0.5;
+  letter-spacing: 0.5em;
+  margin-top: 0.75rem;
+}
