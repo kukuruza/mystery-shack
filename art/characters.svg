@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" fill="none" aria-hidden="true">
+  <title>Field sketches — Shack staff dossier</title>
+  <!-- Dipper -->
+  <g class="sketch" transform="translate(30, 40)">
+    <text x="0" y="-8" fill="#5c3d24" font-family="Georgia, serif" font-size="11" font-style="italic">Pine Scout #1</text>
+    <ellipse cx="55" cy="95" rx="38" ry="42" fill="#fde8c8" stroke="#2a1810" stroke-width="2.5"/>
+    <path d="M25 75 Q55 55 85 75" fill="#4a3728" stroke="#2a1810" stroke-width="2"/>
+    <circle cx="42" cy="88" r="5" fill="#2a1810"/>
+    <circle cx="68" cy="88" r="5" fill="#2a1810"/>
+    <path d="M48 108 Q55 115 62 108" stroke="#2a1810" stroke-width="2" fill="none"/>
+    <path d="M30 130 L80 130 L75 200 L25 200 Z" fill="#3d5a80" stroke="#2a1810" stroke-width="2"/>
+    <path d="M20 55 L55 25 L90 55 L85 70 L55 50 L25 70 Z" fill="#2d4a2d" stroke="#2a1810" stroke-width="2"/>
+    <path d="M55 35 L58 48 L52 48 Z" fill="#f4c430" stroke="#2a1810" stroke-width="1"/>
+    <path d="M10 140 L30 130 M90 130 L110 140" stroke="#2a1810" stroke-width="2"/>
+    <text x="100" y="60" fill="#8b3a2a" font-family="Georgia, serif" font-size="10">nose for mystery!</text>
+  </g>
+
+  <!-- Mabel -->
+  <g class="sketch" transform="translate(200, 30)">
+    <text x="0" y="-8" fill="#5c3d24" font-family="Georgia, serif" font-size="11" font-style="italic">Star Sweater Kid</text>
+    <ellipse cx="55" cy="100" rx="40" ry="44" fill="#fde8c8" stroke="#2a1810" stroke-width="2.5"/>
+    <path d="M20 80 Q55 50 90 80" fill="#c45c2a" stroke="#2a1810" stroke-width="2"/>
+    <circle cx="40" cy="95" r="6" fill="#2a1810"/>
+    <circle cx="70" cy="95" r="6" fill="#2a1810"/>
+    <path d="M45 115 Q55 125 65 115" stroke="#2a1810" stroke-width="2" fill="none"/>
+    <path d="M15 135 L95 135 L90 210 L20 210 Z" fill="#e85d4a" stroke="#2a1810" stroke-width="2"/>
+  <path d="M35 150 L45 165 L55 150 L65 165 L75 150" stroke="#f4c430" stroke-width="2" fill="none"/>
+  <path d="M40 175 L50 190 L60 175 L70 190" stroke="#f4c430" stroke-width="2" fill="none"/>
+    <path d="M55 210 L55 240" stroke="#2a1810" stroke-width="2"/>
+    <path d="M40 240 L70 240" stroke="#2a1810" stroke-width="2"/>
+  </g>
+
+  <!-- Grunkle -->
+  <g class="sketch" transform="translate(370, 35)">
+    <text x="0" y="-8" fill="#5c3d24" font-family="Georgia, serif" font-size="11" font-style="italic">Shack Owner (?)</text>
+    <ellipse cx="60" cy="105" rx="42" ry="46" fill="#e8c9a0" stroke="#2a1810" stroke-width="2.5"/>
+    <path d="M25 95 Q60 70 95 95" fill="#6b6b6b" stroke="#2a1810" stroke-width="2"/>
+    <path d="M35 88 Q45 82 50 88" stroke="#2a1810" stroke-width="2" fill="none"/>
+    <path d="M70 88 Q80 82 85 88" stroke="#2a1810" stroke-width="2" fill="none"/>
+    <path d="M48 118 Q60 112 72 118" stroke="#2a1810" stroke-width="2" fill="none"/>
+    <path d="M15 150 L95 150 L88 220 L22 220 Z" fill="#4a3728" stroke="#2a1810" stroke-width="2"/>
+    <ellipse cx="60" cy="45" rx="28" ry="18" fill="#8b3a2a" stroke="#2a1810" stroke-width="2"/>
+    <path d="M45 45 L75 45" stroke="#f4c430" stroke-width="3"/>
+    <text x="105" y="50" fill="#8b3a2a" font-family="Georgia, serif" font-size="9">$$$</text>
+  </g>
+
+  <!-- Handyman -->
+  <g class="sketch" transform="translate(530, 25)">
+    <text x="0" y="-8" fill="#5c3d24" font-family="Georgia, serif" font-size="11" font-style="italic">Local Fix-It Guy</text>
+    <ellipse cx="50" cy="90" rx="35" ry="38" fill="#d4a574" stroke="#2a1810" stroke-width="2.5"/>
+    <circle cx="38" cy="85" r="5" fill="#2a1810"/>
+    <circle cx="62" cy="85" r="5" fill="#2a1810"/>
+    <path d="M42 102 Q50 110 58 102" stroke="#2a1810" stroke-width="2" fill="none"/>
+    <path d="M20 125 L80 125 L75 230 L25 230 Z" fill="#6b8cae" stroke="#2a1810" stroke-width="2"/>
+    <text x="32" y="175" fill="#f5e6c8" font-family="Georgia, serif" font-size="22" font-weight="bold">?</text>
+    <path d="M15 50 Q50 20 85 50" fill="#3d2817" stroke="#2a1810" stroke-width="2"/>
+  </g>
+
+  <!-- Waddles -->
+  <g class="sketch" transform="translate(680, 120)">
+    <ellipse cx="40" cy="50" rx="35" ry="28" fill="#f4a0a0" stroke="#2a1810" stroke-width="2"/>
+    <circle cx="28" cy="42" r="4" fill="#2a1810"/>
+    <circle cx="52" cy="42" r="4" fill="#2a1810"/>
+    <ellipse cx="40" cy="55" rx="8" ry="6" fill="#e87878" stroke="#2a1810" stroke-width="1.5"/>
+    <path d="M10 55 Q5 65 12 70" stroke="#2a1810" stroke-width="2" fill="none"/>
+    <path d="M70 55 Q75 65 68 70" stroke="#2a1810" stroke-width="2" fill="none"/>
+    <text x="-5" y="-5" fill="#5c3d24" font-family="Georgia, serif" font-size="10" font-style="italic">pig!</text>
+  </g>
+
+  <!-- Bill Cipher doodle -->
+  <g class="sketch" transform="translate(620, 280)">
+    <path d="M60 10 L110 90 L10 90 Z" fill="#f4c430" stroke="#2a1810" stroke-width="2.5"/>
+    <ellipse cx="60" cy="58" rx="14" ry="18" fill="#fff" stroke="#2a1810" stroke-width="2"/>
+    <circle cx="55" cy="55" r="3" fill="#2a1810"/>
+    <path d="M48 68 Q60 75 72 68" stroke="#2a1810" stroke-width="2" fill="none"/>
+    <path d="M45 78 L75 78" stroke="#2a1810" stroke-width="2"/>
+    <text x="5" y="115" fill="#8b3a2a" font-family="Georgia, serif" font-size="9">(probably fine)</text>
+  </g>
+
+  <!-- Gnome -->
+  <g class="sketch" transform="translate(40, 280)">
+    <ellipse cx="45" cy="70" rx="30" ry="35" fill="#c4d4a8" stroke="#2a1810" stroke-width="2"/>
+    <path d="M20 55 Q45 30 70 55" fill="#8b3a2a" stroke="#2a1810" stroke-width="2"/>
+    <circle cx="35" cy="65" r="5" fill="#2a1810"/>
+    <circle cx="55" cy="65" r="5" fill="#2a1810"/>
+    <path d="M38 80 Q45 88 52 80" stroke="#2a1810" stroke-width="2" fill="none"/>
+    <path d="M30 100 L60 100 L55 130 L35 130 Z" fill="#5c4030" stroke="#2a1810" stroke-width="2"/>
+    <text x="0" y="150" fill="#5c3d24" font-family="Georgia, serif" font-size="10" font-style="italic">forest gnome??</text>
+  </g>
+
+  <!-- Shack mini -->
+  <g class="sketch" transform="translate(220, 260)">
+    <path d="M20 120 L120 120 L120 80 L70 30 L20 80 Z" fill="#5c3d24" stroke="#2a1810" stroke-width="2"/>
+    <rect x="35" y="90" width="25" height="30" fill="#3d2817" stroke="#2a1810" stroke-width="2"/>
+    <rect x="75" y="90" width="25" height="30" fill="#3d2817" stroke="#2a1810" stroke-width="2"/>
+    <rect x="50" y="55" width="30" height="25" fill="#8b5a2b" stroke="#2a1810" stroke-width="2"/>
+    <rect x="10" y="115" width="130" height="35" fill="#8b5a2b" stroke="#2a1810" stroke-width="2"/>
+    <text x="15" y="138" fill="#f4c430" font-family="Georgia, serif" font-size="14" font-weight="bold">SHACK</text>
+    <path d="M5 150 Q70 165 135 150" stroke="#2d4a2d" stroke-width="3" fill="none"/>
+    <text x="30" y="175" fill="#5c3d24" font-family="Georgia, serif" font-size="10" font-style="italic">our cabin (weird)</text>
+  </g>
+
+  <!-- Decorative arrows & notes -->
+  <path d="M170 200 Q200 180 230 200" stroke="#8b3a2a" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+  <text x="155" y="195" fill="#8b3a2a" font-family="Georgia, serif" font-size="9" transform="rotate(-8 155 195)">party here!</text>
+  <defs>
+    <marker id="arrow" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 Z" fill="#8b3a2a"/>
+    </marker>
+  </defs>
+</svg>

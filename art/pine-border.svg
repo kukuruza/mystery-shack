@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 200" preserveAspectRatio="none" aria-hidden="true">
+  <defs>
+    <linearGradient id="pineGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a2e1a"/>
+      <stop offset="100%" stop-color="#1a2e1a" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="200" fill="url(#pineGrad)"/>
+  <!-- Layered pine silhouettes -->
+  <g fill="#0f1a12" opacity="0.9">
+    <path d="M0 200 L0 120 L30 80 L60 120 L60 200 Z"/>
+    <path d="M40 200 L40 100 L70 50 L100 100 L100 200 Z"/>
+    <path d="M90 200 L90 110 L120 70 L150 110 L150 200 Z"/>
+    <path d="M130 200 L130 90 L165 40 L200 90 L200 200 Z"/>
+    <path d="M180 200 L180 115 L210 75 L240 115 L240 200 Z"/>
+    <path d="M220 200 L220 95 L255 45 L290 95 L290 200 Z"/>
+    <path d="M270 200 L270 105 L300 65 L330 105 L330 200 Z"/>
+    <path d="M310 200 L310 100 L345 50 L380 100 L380 200 Z"/>
+    <path d="M360 200 L360 115 L390 75 L420 115 L420 200 Z"/>
+    <path d="M400 200 L400 88 L435 38 L470 88 L470 200 Z"/>
+    <path d="M450 200 L450 108 L480 68 L510 108 L510 200 Z"/>
+    <path d="M490 200 L490 98 L525 48 L560 98 L560 200 Z"/>
+    <path d="M540 200 L540 112 L570 72 L600 112 L600 200 Z"/>
+    <path d="M580 200 L580 92 L615 42 L650 92 L650 200 Z"/>
+    <path d="M630 200 L630 105 L660 65 L690 105 L690 200 Z"/>
+    <path d="M670 200 L670 100 L705 50 L740 100 L740 200 Z"/>
+    <path d="M720 200 L720 115 L750 75 L780 115 L780 200 Z"/>
+    <path d="M760 200 L760 90 L795 40 L830 90 L830 200 Z"/>
+    <path d="M810 200 L810 108 L840 68 L870 108 L870 200 Z"/>
+    <path d="M850 200 L850 95 L885 45 L920 95 L920 200 Z"/>
+    <path d="M900 200 L900 112 L930 72 L960 112 L960 200 Z"/>
+    <path d="M940 200 L940 100 L975 50 L1010 100 L1010 200 Z"/>
+    <path d="M990 200 L990 115 L1020 75 L1050 115 L1050 200 Z"/>
+    <path d="M1030 200 L1030 88 L1065 38 L1100 88 L1100 200 Z"/>
+    <path d="M1080 200 L1080 105 L1110 65 L1140 105 L1140 200 Z"/>
+    <path d="M1120 200 L1120 95 L1155 45 L1200 95 L1200 200 Z"/>
+  </g>
+  <g fill="#152015" opacity="0.7">
+    <path d="M20 200 L20 130 L45 100 L70 130 L70 200 Z"/>
+    <path d="M200 200 L200 125 L230 95 L260 125 L260 200 Z"/>
+    <path d="M500 200 L500 128 L530 98 L560 128 L560 200 Z"/>
+    <path d="M800 200 L800 120 L830 90 L860 120 L860 200 Z"/>
+    <path d="M1050 200 L1050 130 L1080 100 L1110 130 L1110 200 Z"/>
+  </g>
+</svg>
