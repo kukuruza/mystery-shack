@@ -5,7 +5,7 @@ A simple Gravity Falls–themed invitation site for Evgeny Toropov's birthday pa
 ## Party details
 
 - **Date:** June 20
-- **Time:** Around 4:00 PM (or whenever during the day)
+- **Time:** Around 3:00 PM (or whenever during the day)
 - **Location:** 875 Turkey Ridge Lane, Leeper, PA 16233
 - **Overnight:** Guests welcome to stay
 

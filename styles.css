@@ -391,7 +391,7 @@ main {
   top: 66%;
   left: max(0.5rem, calc(50% - 460px));
   width: clamp(64px, 9vw, 100px);
-  opacity: 0.8;
+  opacity: 0.9;
 }
 
 @media (max-width: 900px) {
@@ -435,7 +435,7 @@ main {
     top: 68%;
     left: 0;
     width: clamp(52px, 14vw, 72px);
-    opacity: 0.6;
+    opacity: 0.75;
   }
 }
 
@@ -516,6 +516,39 @@ main {
 
 .journal-card p {
   margin: 0.5rem 0;
+}
+
+.party-plan .lead {
+  margin-bottom: 1.25rem;
+}
+
+.party-plan-subhead {
+  font-family: "Special Elite", cursive;
+  font-size: 1rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--pine-mid);
+  margin: 0 0 0.75rem;
+}
+
+.party-plan-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.party-plan-list li {
+  position: relative;
+  padding: 0.35rem 0 0.35rem 1.75rem;
+  font-size: 1.1rem;
+}
+
+.party-plan-list li::before {
+  content: "★";
+  position: absolute;
+  left: 0;
+  color: var(--rust);
+  font-size: 0.9rem;
 }
 
 .details-grid {
