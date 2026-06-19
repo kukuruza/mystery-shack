@@ -395,55 +395,117 @@ main {
 }
 
 @media (max-width: 900px) {
+  .character-floats {
+    z-index: 3;
+  }
+
   .character-float {
     width: clamp(64px, 18vw, 100px);
-    opacity: 0.8;
+    opacity: 0.88;
   }
 
   .character-dipper {
-    top: 6%;
-    left: -0.5rem;
+    top: 5%;
+    left: -0.25rem;
     width: clamp(72px, 22vw, 110px);
   }
 
   .character-mabel {
-    top: 4%;
-    right: -0.5rem;
+    top: 3%;
+    right: -0.25rem;
     width: clamp(68px, 20vw, 105px);
   }
 
   .character-mabel-alt {
-    top: 26%;
-    right: -0.75rem;
+    top: 24%;
+    right: -0.5rem;
     width: clamp(80px, 24vw, 120px);
   }
 
   .character-stan {
-    top: 44%;
-    left: -1rem;
+    top: 42%;
+    left: -0.75rem;
     width: clamp(90px, 26vw, 140px);
   }
 
   .character-soos {
-    top: 18%;
-    right: -0.25rem;
+    top: 16%;
+    right: -0.15rem;
     width: clamp(56px, 16vw, 80px);
-    opacity: 0.55;
+    opacity: 0.8;
   }
 
   .character-waddles {
-    top: 68%;
-    left: 0;
+    top: 66%;
+    left: -0.25rem;
     width: clamp(52px, 14vw, 72px);
-    opacity: 0.75;
+    opacity: 0.85;
   }
 }
 
 @media (max-width: 480px) {
-  .character-stan,
-  .character-soos {
-    opacity: 0.55;
+  .character-dipper {
+    left: 0;
+    width: clamp(64px, 20vw, 96px);
   }
+
+  .character-mabel {
+    right: 0;
+    width: clamp(60px, 18vw, 90px);
+  }
+
+  .character-mabel-alt {
+    top: 22%;
+    right: 0;
+    width: clamp(72px, 22vw, 108px);
+  }
+
+  .character-stan {
+    top: 40%;
+    left: -0.5rem;
+    width: clamp(80px, 24vw, 120px);
+    opacity: 0.9;
+  }
+
+  .character-soos {
+    top: 14%;
+    right: 0;
+    width: clamp(52px, 15vw, 72px);
+    opacity: 0.85;
+  }
+
+  .character-waddles {
+    top: 64%;
+    left: 0;
+    width: clamp(48px, 13vw, 68px);
+    opacity: 0.9;
+  }
+}
+
+/* Shack scene */
+.shack-scene {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.shack-image {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 3px solid var(--wood-mid);
+  box-shadow:
+    4px 4px 0 var(--wood-dark),
+    0 12px 40px rgba(0, 0, 0, 0.45);
+  border-radius: 2px;
+}
+
+.shack-caption {
+  margin: 0.75rem 0 0;
+  color: var(--paper);
+  font-family: "Special Elite", cursive;
+  font-size: 0.95rem;
+  letter-spacing: 0.04em;
+  opacity: 0.9;
 }
 
 /* Cast banner */
@@ -455,8 +517,6 @@ main {
   display: block;
   width: 100%;
   height: auto;
-  border: 3px solid var(--sign-yellow-dark);
-  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.4);
 }
 
 .image-credit {
